@@ -1,0 +1,108 @@
+body{
+    font-family: 'Courgette', cursive;
+   
+}
+header {
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+   margin-top: 10px;
+}
+main{
+    background-image: url('../image/NX7PC.jpg');
+    margin: 0%;
+    height: 100%;
+}
+
+fieldset{
+    position: relative;
+    margin-left: 100px;
+    top: 100px;
+    padding: 30px;
+    width: 300px;
+    background-color: RGBA(211, 211, 211, 0.548);
+}
+ label{
+    margin-left: 100px;
+    text-align: center;
+    width: 180px;
+}
+
+input{
+    margin-left: 40px; 
+    text-align: center;
+    border-radius: 5px;
+}
+select{
+    margin-left: 40px; 
+    text-align: center;
+    width: 175px;
+    border-radius: 5px;
+}
+#submit{
+    margin-left: 40px; 
+    text-align: center;
+    width: 175px;
+    background-color: RGB(39, 39, 39);
+    border-radius: 5px;
+}
+table{
+    margin-left: 40px;
+    width: 400px;
+    position: relative;
+    top: 40px;
+}
+
+div{
+    position: relative;
+    margin-left: 580px;
+    width: 600px;
+    height: 250px;
+    bottom: 100px;
+
+}
+div{
+    background-color:RGBA(211, 211, 211, 0.548) ;
+    width: 500px;
+}
+
+ th{
+    border: solid wheat 1px;
+    border-collapse: collapse;
+    color: white;
+    background-color: RGB(39, 39, 39);
+    padding: 10px;
+    text-align: center;
+}
+
+td{
+    border: solid wheat 1px;
+    border-collapse: collapse;
+    color: white;
+    background-color: RGB(78, 78, 78);
+    padding: 6px;
+    text-align: center;
+}
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+}
+h3{
+    margin: 20px auto;
+    text-align: center;
+}
+button {
+    margin: 40px;
+    background-color:RGB(78, 78, 78);
+    color: rgb(190, 168, 168);
+    border-radius: 5px;
+}

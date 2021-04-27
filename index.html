@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Mobile Store</h1>
+    </header>
+    <main>
+        <form action="" id="form">
+            <fieldset>
+                <label for="userField">User</label>
+                <br>
+                <input type="text" name="userField" id="userField">
+                <br>
+                <br>
+                <label for="typeField">Type</label>
+                <br>
+                <select name="typeField" id="typeField">
+                    <option value="samsung">Samsung</option>
+                    <option value="apple">Apple</option>
+                    <option value="huawei">Huawie</option>
+                </select>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="submit">
+            </fieldset>
+        </form>
+        <div>
+            <table id="table">
+                <tr>
+                    <th>
+                        User
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Condition
+                    </th>
+                </tr>
+            </table>
+            
+        </div>
+        <button id="clear">Clear</button>
+    </main>
+    <footer>
+        <h3>&copy; 2021 ASAC</h3>
+        <script src="app.js"></script>
+    </footer>
+</body>
+
+</html>
